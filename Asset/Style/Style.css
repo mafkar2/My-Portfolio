@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
+}
+
+.header {
+  min-height: 200vh;
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+  position: relative;
+}
+
+nav {
+  display: flex;
+   justify-content: space-between;
+   align-items:center;
+   position: relative;
+   z-index:1;
+}
+
+#logo-image {
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 5%;
+}
+
+.nav-links{
+  text-align:right;
+  background: rgba(107, 148, 192, 0.66);
+  padding:0  30px;
+  border-bottom-left-radius:18px;
+}
+
+.nav-links h1 {
+  font-size: 100px;
+}
+
+.nav-links ul li{
+  list-style:none;
+  display:inline-block;
+  padding: 10px 25px;
+}
+
+.nav-links ul li a{
+ color:#fff;
+ text-decoration:none;
+ font-size:40px;
+}
+
+.left-sidebar{
+  width:20%;
+  height:100%;
+  position:absolute;
+  left:2px;
+  top:2px;
+  background:rgba(107, 148, 192, 0.66); 
+
+}
+.row{
+  padding:0 10%;
+  display:flex-end;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 10%;
+}
+
+.left-column{
+  flex-basis:40%;
+}
+
+
+
+
+
+.right-column {
+  display: flex;
+  justify-content: right;
+  text-align: justify;
+}
+
+.right-column h1 {
+  font-size: 55px;
+  font-weight: 600;
+  justify-content: center;
+  margin: 70px auto;
+}
+
+.right-column p {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin: 50px 50px auto;
+}
+
+social-media{
+  display:flex;
+  margin-top: 10px;
+  width: 5px;
+}
+
+
+
+
+.icon  {
+  
+     width: 100px;
+     height:100px;
+    background:white
+    display: flex;
+   
+    position: relative;
+    
+  }
+
+
+  icon  img{
+  
+    width: 80px;
+    height:800px;
+   display: flex;
+  
+   position: relative;
+   
+ }
+
+ 
+
+
+
+
+
+  .icon img: a hover{
+
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    Height: 100%;
+    background:rgba(107, 148, 192, 0.66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+
+  }
+    
+  
+  .icon img:a hover{
+    opacity: 1;
+
+  
+
+
+
+
+
+
+  }
+
+  
+.icon img {
+  width: 5px;
+  height: 5px;
+  align-items:center;
+  justify-content: center;
+} 
+
+.left-column img{
+  width:10%;
+  cursor:pointer;
+  filter:grayscale(0);
+  transition:filter 1s;
+  padding-left:10%;
+}
+
+.right-column img:hover{
+
+  filter:grayscale(1);
+
+}
+
+.right-column{
+  flex-basis:70%;
+}
